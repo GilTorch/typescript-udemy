@@ -1,6 +1,3 @@
-let age: any = 36;  // <--- use any last resort
+let age: string | number = 36;  // <---  union types
 
 age = '37'
-age = false 
-age = {}
-age = []
